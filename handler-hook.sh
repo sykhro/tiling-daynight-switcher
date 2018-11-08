@@ -5,13 +5,13 @@
 # Just do whatever you like
 case $3 in
     daytime)
-        theme-handler.sh 0
+        /path/to/theme-handler.sh 0
         ;;
     night)
-        theme-handler.sh 1
+        /path/to/theme-handler.sh 1
 	;;
     transition)
-        theme-handler.sh 1
+        /path/to/theme-handler.sh 1
 	;;
 esac
 
